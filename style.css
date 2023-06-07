@@ -1,0 +1,8 @@
+#elem{
+   border: 2px solid black;
+   height: 30vh;
+   width: 586px;
+   color: rgb(0, 0, 0);
+   background: rgb(255, 255, 255);
+   margin: auto;
+}
