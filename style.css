@@ -1,8 +1,43 @@
-#elem{
-   border: 2px solid black;
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Helvetica, sans-serif;
+
+}
+
+.random-facts{
+   background-color: white;
+   border-radius: 15px;
+   box-shadow: 10px 5px 5px black;
    height: 30vh;
    width: 586px;
    color: rgb(0, 0, 0);
-   background: rgb(255, 255, 255);
-   margin: auto;
+   margin: auto; 
+
+   
 }
+
+form{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+
+.btn-next{
+   background-color: #D4FF5A;
+   width: 116px;
+   height: 44px;
+   border-radius: 8px;
+   border: none;
+}
+
+main{
+   display: block;
+   align-items: center;
+   grid-template-columns: 100%;
+   border: 2px solid red;
+
+}
+
