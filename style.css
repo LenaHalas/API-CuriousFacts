@@ -5,21 +5,70 @@
 
 }
 
+body{
+   background-image: url(./img/InterrograntesBcakgoround-05.svg), linear-gradient(135deg, #682E90, #F18F23);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+header{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   background: rgba(51, 51, 51, 0.2);
+   margin-bottom:65px ;
+}
+
+main{
+   display: block;
+   align-items: center;
+   grid-template-columns: 100%;
+}
+
+.v-mobile{
+   width: 70%;
+}
+
+
+.saved-facts{
+   width: 210px;
+   height: 50px;
+   background:#682E90;
+   color: white;
+   border-radius: 15px ;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content:space-around;
+   margin-bottom: 70px;
+}
+
+.btn-list{
+   width:24px;
+   height: 24px;
+   margin-left: 10px;
+}
+
+.text-btn{
+      letter-spacing: 3px;
+      margin-right: 20px;
+}
+
 .random-facts{
+   position: relative;
    background-color: white;
+   width: 60%;
    border-radius: 15px;
    box-shadow: 10px 5px 5px black;
-   height: 30vh;
-   width: 586px;
+   height: 232px;
    color: rgb(0, 0, 0);
    margin: auto; 
-
-   
 }
 
 form{
    display: flex;
-   align-items: center;
+   align-items:start;
    flex-direction: column;
 
 }
@@ -29,15 +78,22 @@ form{
    background-color: #D4FF5A;
    width: 116px;
    height: 44px;
+   margin-left: 70px;
    border-radius: 8px;
+   margin-top: 40px;
    border: none;
 }
 
-main{
-   display: block;
-   align-items: center;
-   grid-template-columns: 100%;
-   border: 2px solid red;
-
+.favorite{
+   width: 28px;
+   height: 28px;
+   position:absolute;
+   bottom: 6%;
+   right: 75px;
+   border: none;
+   border-radius: 5px;
+   background: #D4FF5A ;
 }
+
+
 
