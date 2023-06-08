@@ -5,6 +5,11 @@
 
 }
 
+:root{
+   --bs-purple: #6f42c1;
+}
+
+
 body{
    background-image: url(./img/InterrograntesBcakgoround-05.svg), linear-gradient(135deg, #682E90, #F18F23);
    background-size: cover;
@@ -31,7 +36,7 @@ main{
 }
 
 
-.saved-facts{
+/* .saved-facts{
    width: 210px;
    height: 50px;
    background:#682E90;
@@ -42,6 +47,20 @@ main{
    margin: auto;
    justify-content:space-around;
    margin-bottom: 70px;
+} */
+
+.accordion{
+   width: 210px;
+   background:var(--bs-purple);
+   color: white;
+   align-items: center;
+   margin: auto;
+   justify-content: space-around;
+   margin-bottom: 70px;
+   
+}
+.accordion-button{
+   background:var(--bs-purple #6f42c1);
 }
 
 .btn-list{
