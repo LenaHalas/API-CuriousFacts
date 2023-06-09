@@ -49,30 +49,25 @@ main{
    margin-bottom: 70px;
 } */
 
-.accordion{
+
+
+.text-div{
    width: 210px;
-   background:var(--bs-purple);
-   color: white;
+   height: 6vh;
    align-items: center;
-   margin: auto;
+   background: #682E90;
+   margin-left: 25%;
+   color: white;
+   letter-spacing: 2px;
    justify-content: space-around;
-   margin-bottom: 70px;
-   
-}
-.accordion-button{
-   background:var(--bs-purple #6f42c1);
+   border-radius: 15px;
 }
 
-.btn-list{
-   width:24px;
-   height: 24px;
-   margin-left: 10px;
+.card{
+   margin-bottom: 4px;
+   box-shadow: 4px 1px 1px black
 }
 
-.text-btn{
-      letter-spacing: 3px;
-      margin-right: 20px;
-}
 
 .random-facts{
    position: relative;
@@ -82,13 +77,23 @@ main{
    box-shadow: 10px 5px 5px black;
    height: 232px;
    color: rgb(0, 0, 0);
-   margin: auto; 
+   margin: auto;   
+   vertical-align: middle;
+
 }
 
-form{
+.random-facts p{
+   padding: 7px;
+   position: absolute;
+   margin-top: 30%;
+   text-align: center;
+   width: 100%;
+}
+
+section{
    display: flex;
    align-items:start;
-   flex-direction: column;
+   justify-content: space-between;
 
 }
 
@@ -97,22 +102,34 @@ form{
    background-color: #D4FF5A;
    width: 116px;
    height: 44px;
-   margin-left: 70px;
+   margin-left: 85px;
    border-radius: 8px;
    margin-top: 40px;
    border: none;
+   letter-spacing: 2px;
+}
+
+.btn-next:hover{
+   font-size: 17px;
+   box-shadow: 4px 4px 1px #F18F23;
 }
 
 .favorite{
    width: 28px;
    height: 28px;
-   position:absolute;
-   bottom: 6%;
-   right: 75px;
+   margin-top: 59px;
+   margin-right: 82px;
    border: none;
    border-radius: 5px;
-   background: #D4FF5A ;
+   background: #D4FF5A;
 }
+
+
+.favorite img:hover{
+   width: 15px;
+}
+
+
 
 
 

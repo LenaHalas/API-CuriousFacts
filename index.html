@@ -13,37 +13,43 @@
 
 <body>
     <header class="logo">
-        <img class="v-mobile" src="./img/logoMobiele-06.svg">
+        <img class="v-mobile m-3" src="./img/logoMobiele-06.svg">
     </header>
 
     <main>
 
-        <div class="accordion"  id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Saved Facts
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>
-                    </div>
+        <p class="text-div mb-5">
+            <button class="btn btn-icon btn-close-white w-25 h-100 ml-6" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <img class="mb-2 h-50" src="./img/List facts.svg" alt="" srcset="">
+            </button>
+            Saved facts
+        </p>
+        <div class="collapse w-100 pt-3 pb-3  mb-5" id="collapseExample">
+            <div class="w-75 align-content-center m-auto">
+                <div class="card card-body">
+                    <p class="w-100 m-2">
+                    </p>
+                </div>
+                <div class="card card-body">
+                    <p class="w-100 m-2">
+                    </p>
                 </div>
             </div>
-            </div>
+        </div>
 
-            <!-- <div>
-                <button class="btn-list"></button>
-                <p class="text-btn">Saved facts</p>
-            </div> -->
+        <!-- <form action="">
+            <div class="random-facts" id="elem"></div>
+            <button class="btn-next">NEXT</button>
+            <button class="favorite"><img src="./img/Star 2.svg" alt=""></button>
+        </form> -->
 
-            <form action="">
-                <input type="text" class="random-facts" placeholder="Clik NEXT to get your random fact">
-                <button class="btn-next">NEXT</button>
-                <button class="favorite"><img src="./img/Star 2.svg" alt=""></button>
-            </form>
+        <div class="random-facts" id="elem"></div>
+        <section>
+            <button class="btn-next">NEXT</button>
+            <button class="favorite"><img src="./img/Star 2.svg" alt=""></button>
+        </section>
+        
 
     </main>
 
