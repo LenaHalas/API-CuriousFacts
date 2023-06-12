@@ -1,14 +1,13 @@
-const url = 'https://uselessfacts.jsph.pl/api/v2/facts/random'
+// const url = 'https://uselessfacts.jsph.pl/api/v2/facts/random'
 
-fetch(url)
-.then(response => response.json())
-.then(data => {
+// fetch(url)
+// .then(response => response.json())
+// .then(data => {
 
-    let element = document.getElementById('elem')
-    element.innerHTML=`
-    <p>${data.text}</p>
-   `
+//     let element = document.getElementById('elem')
+//     element.innerHTML=`
+//     <p>${data.text}</p>
+//    `
 
-    console.log(data)
-})
-
+//     console.log(data)
+// })

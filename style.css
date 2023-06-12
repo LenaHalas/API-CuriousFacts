@@ -129,7 +129,9 @@ section{
    width: 15px;
 }
 
-
-
-
-
+@media (min-width: 768px) {
+  main {
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+}
