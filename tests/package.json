@@ -1,0 +1,15 @@
+{
+  "name": "api-curiousfacts",
+  "version": "1.0.0",
+  "description": "---\r Title: Did You Know?\r Author: Genesi Núñez and Milena Halas\r Description: This project is designed to provide users with random, interesting facts using data from the [useless facts](https://uselessfacts.jsph.pl/) API.\r Instructions:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

@@ -75,17 +75,19 @@ main{
    width: 60%;
    border-radius: 15px;
    box-shadow: 10px 5px 5px black;
-   height: 232px;
+   min-height: 232px;
    color: rgb(0, 0, 0);
    margin: auto;   
    vertical-align: middle;
+   overflow-y: auto;
+   overscroll-behavior-y: contain;
 
 }
 
 .random-facts p{
    padding: 7px;
    position: absolute;
-   margin-top: 30%;
+   margin-top: auto;
    text-align: center;
    width: 100%;
 }
@@ -147,4 +149,5 @@ section{
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
   }
+  
 }
